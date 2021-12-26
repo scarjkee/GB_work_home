@@ -30,7 +30,7 @@ def convert_time(duration: int) -> str:
 
 
 
-duration = 41530000
+duration = 400153
 result = convert_time(duration)
 print(result)
 
