@@ -1,0 +1,14 @@
+Index: python/lesson1/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/lesson1/main.py b/python/lesson1/main.py
+new file mode 100644
+--- /dev/null	(date 1640281833210)
++++ b/python/lesson1/main.py	(date 1640281833210)
+@@ -0,0 +1,4 @@
++print("Hello, world")
++print(
++    "второй комент"
++)
