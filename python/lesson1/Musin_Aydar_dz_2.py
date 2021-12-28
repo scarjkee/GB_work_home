@@ -3,17 +3,24 @@
 # Например, число `19 ^ 3 = 6859` будем включать в сумму, так как `6 + 8 + 5 + 9 = 28` – делится нацело на `7`.
 
 
+
+
 def sum_list_1(dataset: list) -> int:
     answer = []
 
     """Вычисляет сумму чисел списка dataset, сумма цифр которых делится нацело на 7"""
     for n in list_1:
+
         x = n ** 3
+
         z = [int(i) for i in str(x)]
         if sum(z) % 7 == 0:
             answer.append(sum(z))
 
+
     return int(answer)
+
+
 
 
 number = 1000
