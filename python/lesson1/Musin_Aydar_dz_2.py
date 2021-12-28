@@ -17,7 +17,7 @@ def sum_list_1(dataset: list) -> int:
     return int(answer)
 
 
-number = 1000
+number = int(input("dataset: "))
 list_1 = [i for i in range(number) if i % 2 != 0]
 my_list = []
 
