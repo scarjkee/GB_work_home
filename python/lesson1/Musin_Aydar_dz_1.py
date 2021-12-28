@@ -14,7 +14,7 @@ def convert_time(duration: int) -> str:
     spisok.append(seconds)
 
     for i in spisok:
-        if i > 0:
+        if i > 0 or len(timeout) > 0 :
             timeout.append(i)
     spisok = timeout
 
@@ -30,7 +30,7 @@ def convert_time(duration: int) -> str:
 
 
 
-duration = 3601
+duration = int(input("duration: "))
 result = convert_time(duration)
 print(result)
 
