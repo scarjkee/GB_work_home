@@ -1,0 +1,30 @@
+Index: python/lesson1/why_vars_end.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/lesson1/why_vars_end.py b/python/lesson1/why_vars_end.py
+new file mode 100644
+--- /dev/null	(date 1640158804195)
++++ b/python/lesson1/why_vars_end.py	(date 1640158804195)
+@@ -0,0 +1,20 @@
++##программа умный попугайчик
++name = "Кеша"
++age = 2
++period = 2
++print("попугайчик")
++print(name)
++print("в")
++print(age)
++print("года")
++print("научился говрить")
++print("свое имя")
++print(name)
++print()
++print("Через")
++print(period)
++print("года")
++print("он научился говрить")
++print("сколько ему лет")
++print(age + period)
++
