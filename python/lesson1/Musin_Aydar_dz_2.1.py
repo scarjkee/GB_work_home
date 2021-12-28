@@ -1,14 +1,14 @@
 # ДЗ№ 2 (б)
-
+#list_1 = [i for i in range(number) if i % 2 != 0]
 """К каждому элементу списка добавляет 17 и вычисляет сумму чисел списка,
         сумма цифр которых делится нацело на 7"""
 
-def sum_list_1(dataset: list) -> int:
+def sum_list_2(list) -> int:
     answer = []
-    list_1 = [i for i in range(number) if i % 2 != 0]
 
-    for n in list_1:
-        x = n**3
+
+    for n in my_list:
+        x = n ** 3
         z = [int(i) for i in str(x) + "17"]
         if sum(z) % 7 == 0:
             answer.append(sum(z))
@@ -17,7 +17,7 @@ def sum_list_1(dataset: list) -> int:
 
 number = int(input("dataset: "))
 
-my_list = []
+my_list = [i for i in range(number) if i % 2 != 0]
 
-result_1 = sum_list_1(my_list)
-print(result_1)
+result_2 = sum_list_2(my_list)
+print(result_2)

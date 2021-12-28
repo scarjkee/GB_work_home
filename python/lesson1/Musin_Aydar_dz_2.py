@@ -6,7 +6,7 @@
 
 def sum_list_1(dataset: list) -> int:
     answer = []
-
+    list_1 = [i for i in range(number) if i % 2 != 0]
     """Вычисляет сумму чисел списка dataset, сумма цифр которых делится нацело на 7"""
     for n in list_1:
         x = n ** 3
@@ -14,11 +14,10 @@ def sum_list_1(dataset: list) -> int:
         if sum(z) % 7 == 0:
             answer.append(sum(z))
 
-    return int(answer)
+    return sum(answer)
 
 
 number = int(input("dataset: "))
-list_1 = [i for i in range(number) if i % 2 != 0]
 my_list = []
 
 result_1 = sum_list_1(my_list)
